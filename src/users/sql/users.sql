@@ -1,0 +1,10 @@
+CREATE TABLE Users 
+(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    someField1 VARCHAR(255) NOT NULL,
+    someField2 VARCHAR(30),
+    name VARCHAR(255) NOT NULL,
+    surname VARCHAR(255) NOT NULL,
+    likes INT NOT NULL DEFAULT(0),
+    bans INT NOT NULL DEFAULT(0)
+);
